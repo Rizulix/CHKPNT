@@ -11,7 +11,7 @@
 
 ## Install
 
-[Download this repository](https://github.com/Rizulix/CHKPNT/releases/download/v1.0.0/chkpnt.zip) and extract its contents inside `Steam\steamapps\common\Sven Co-op\svencoop_addon\scripts\maps`.
+Download this project from release page ([or here](https://github.com/Rizulix/CHKPNT/releases/download/v1.0.0/chkpnt.zip)) and extract its contents inside `Steam\steamapps\common\Sven Co-op\svencoop_addon\scripts\maps`.
 
 ## Getting Started
 
