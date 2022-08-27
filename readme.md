@@ -11,7 +11,7 @@
 
 ## Install
 
-[Download this repository](https://github.com/Rizulix/Classic-Weapons/archive/refs/heads/main.zip) and extract its contents inside `Steam\steamapps\common\Sven Co-op\svencoop_addon\scripts\maps`.
+[Download this repository](https://github.com/Rizulix/CHKPNT/releases/download/untagged-6fe702e62f14c41a3cd8/chkpnt.zip) and extract its contents inside `Steam\steamapps\common\Sven Co-op\svencoop_addon\scripts\maps`.
 
 ## Getting Started
 
