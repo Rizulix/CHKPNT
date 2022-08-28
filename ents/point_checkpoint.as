@@ -532,11 +532,13 @@ class point_checkpoint : ScriptBaseAnimating
 	}
 }
 
+void ShareCheckpointName() { g_szCheckpointName = g_szEntityName; }
+
 void Register()
 {
 	LoadCustomCallbacks();
 
-	g_szCheckpointName = g_szEntityName;
+	g_Scheduler.SetTimeout('ShareCheckpointName', 0.1f);
 
 	if (!g_CustomEntityFuncs.IsCustomEntity('point_checkpoint'))
 		g_CustomEntityFuncs.RegisterCustomEntity('point_checkpoint::point_checkpoint', 'point_checkpoint');
