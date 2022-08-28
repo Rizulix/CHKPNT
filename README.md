@@ -99,7 +99,7 @@ The basic customization can be applied globally (Global) or per entity (Local).
 | Max Hullsize | Maximun size. Relative to the entity's origin | g_vecMaxs | maxhullsize | 8 8 16 |
 | Respawn Point | Use this coordinates instead Checkpoint's origin for player respawn (0 0 0 isn't used) | N/A | m_vecRespawnPoint | 0 0 0 |
 | Delay Before Start | How much time between being triggered and starting the revival of dead players | g_flDelayBeforeStart | m_flDelayBeforeStart | 3.0 |
-| Delay Between Revive | Time between player revive | g_flDelayBetweenRevive | m_flDelayBetweenRevive | 1.0 |
+| Delay Between Revive | Time between each player revive | g_flDelayBetweenRevive | m_flDelayBetweenRevive | 1.0 |
 | Delay Before Reactivation | How much time before this Checkpoint becomes active again, SF_CHECKPOINT_REUSABLE required! | g_flDelayBeforeReactivation | m_flDelayBeforeReactivation | 60.0 |
 | On Spawn: Use Type | Use type at spawn. Survival active require! | g_useOnSpawn | m_useOnSpawn | USE_TOGGLE (3) |
 | On Activate: Use Type | Use type at ativate | g_useOnActivate | m_useOnActivate | USE_TOGGLE (3) |
